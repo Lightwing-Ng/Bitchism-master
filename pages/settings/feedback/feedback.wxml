@@ -1,0 +1,9 @@
+<view class="container">
+    <text class="feedback-label">Descriptions:</text>
+    <textarea class="feedback-text" placeholder="Please note the issues you encountered:)" bindblur="getContent" />
+    <text class="connect-label">Contact:</text>
+    <textarea class="connect-text" placeholder="Please leave your email..." bindblur="getConnection" />
+</view>
+<view>
+    <button class="feedback-button" bindtap="submitSuggestion">Submit</button>
+</view>

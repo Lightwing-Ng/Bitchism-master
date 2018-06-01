@@ -1,0 +1,12 @@
+<view>
+    <view class="container">
+        <image class="logo" src="/images/logo.png"></image>
+    </view>
+    <view class='DeveloperInfo'>
+        <text>婊学洋文 v0.0.1\n</text>
+        <text>开发者信息\n</text>
+        <text>© Lightwing Ng\nhttps://github.com/Lightwing-Ng</text>
+        <image class="QRCode" src="/images/QRCode_LightwingNg.png">
+        </image>
+    </view>
+</view>

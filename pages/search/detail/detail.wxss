@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.word-content {
+    margin: 234 rpx auto 18 rpx;
+    font-family: Chalkboard;
+    font-size: 64 rpx;
+}
+
+.pron-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.pron-icon {
+    width: 8 px;
+    height: 8 px;
+}
+
+.word-pron {
+    margin-left: 9 rpx;
+    font-family: CamingoCode;
+    font-size: 2em;
+    color: #8F8F8F;
+}
+
+.word-definition {
+    margin-top: 194 rpx;
+    font-family: Yuanti TC;
+    font-size: 30 rpx;
+    color: #585858;
+}

@@ -1,0 +1,56 @@
+{
+    "pages": [
+        "pages/word/word",
+        "pages/search/search",
+        "pages/settings/settings",
+        "pages/search/detail/detail",
+        "pages/settings/clause/clause",
+        "pages/settings/help/help",
+        "pages/settings/feedback/feedback",
+        "pages/testing/testing"
+    ],
+    "tabBar": {
+        "backgroundColor": "#ffffff",
+        "selectedColor": "#0f88eb",
+        "borderStyle": "white",
+        "list": [
+            {
+                "pagePath": "pages/word/word",
+                "text": "Words",
+                "iconPath": "images/home.png",
+                "selectedIconPath": "images/home-selected.png"
+            },
+            {
+                "pagePath": "pages/search/search",
+                "text": "Dictionary",
+                "iconPath": "images/search.png",
+                "selectedIconPath": "images/search-selected.png"
+            },
+            {
+                "pagePath": "pages/settings/settings",
+                "text": "Settings",
+                "iconPath": "images/settings.png",
+                "selectedIconPath": "images/settings-selected.png"
+            },
+            {
+                "pagePath": "pages/testing/testing",
+                "text": "Testing",
+                "iconPath": "images/more.png",
+                "selectedIconPath": "images/more-selected.png"      
+            }
+        ]
+    },
+    "window": {
+        "backgroundTextStyle": "light",
+        "backgroundColor": "#ffffff",
+        "navigationBarBackgroundColor": "#0f88eb",
+        "navigationBarTitleText": "Bitchism",
+        "navigationBarTextStyle": "#ffffff",
+        "backgroundColorTop": "#0f88eb"
+    },
+    "debug": true,
+    "networkTimeout": {
+        "request": 10000,
+        "downloadFile": 10000
+    }
+}

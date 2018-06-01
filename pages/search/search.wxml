@@ -1,0 +1,30 @@
+<view class="container">
+    <image class="logo" src="/images/OxfordDictionary.png"></image>
+
+    <view id="hideData">
+        {{wordFrom}} {{wordTo}} {{wordsTotranslate}}
+    </view>
+
+    <view>
+        <picker class="LangSelectorFrom" bindchange="changefrom" value="{{indexFrom}}" range="{{arrayFrom}}">{{arrayFrom[indexFrom]}}
+            <label class="arrow-down"></label>
+        </picker>
+        <image class="ExchangeLogo" src="/images/Google_Translate_logo.png"></image>
+        <picker class="LangSelectorTo" bindchange="changeto" value="{{indexTo}}" range="{{arrayTo}}">{{arrayTo[indexTo]}}
+            <label class="arrow-down"></label>
+        </picker>
+    </view>
+
+    <view>
+        <view class="inputLine">
+            <textarea value="{{words}}" placeholder="顶配辉腾" bindinput="showClear" auto-focus/>
+            <icon class="ClearIcon" bindtap="clearWords" type="clear" size="{{size}}"/>
+        </view>
+
+        <view id="show" style="display:{{DisplayResult}};">
+            <text id="showResult" value="{{resultRords}}" auto-focus/>
+        </view>
+        <audio style="display:{{DisplayAudio}};" name="语音" author="翻译助手" src="{{src}}" controls></audio>
+        <button class='button-search' style="display:{{DisplayButton}};" bindtap="send" loading="{{loading}}" bindtap="send">翻译</button>
+    </view>
+</view>

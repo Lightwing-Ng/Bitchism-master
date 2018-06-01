@@ -1,0 +1,15 @@
+.container {
+    align-content: center;
+    margin: 15%;
+}
+
+.next {
+    font-family: PingFangSC-Ultralight;
+    font-size: 1.25rem;
+    color: #0f88eb;
+    border: 1rpx solid #0f88eb;
+    padding: 0 0.5rem 0 0.5rem;
+    margin: 2rem;
+    background: #fff;
+    border-radius: 0.25rem;
+}

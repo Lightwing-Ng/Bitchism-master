@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.feedback-label {
+    font-family: PingFangSC;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.feedback-text {
+    margin: 0.5rem;
+    background-color: #fff;
+    padding-left: 1rem;
+    font-size: 1rem;
+    width: 80%;
+    border-left: 5rpx solid #0f88eb;
+}
+
+.connect-label {
+    font-family: PingFangSC;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.connect-text {
+    margin: 0.5rem;
+    background-color: #fff;
+    padding-left: 1rem;
+    font-size: 1rem;
+    width: 80%;
+    border-left: 5rpx solid #0f88eb;
+}
+
+.feedback-button {
+    font-family: PingFangSC-Ultralight;
+    font-size: 1rem;
+    width: 35%;
+    color: #0f88eb;
+    text-align: center;
+    border: 1rpx solid #0f88eb;
+    background: #fff;
+    border-radius: 0.5rem;
+    line-height: 2;
+}

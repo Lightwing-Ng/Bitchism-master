@@ -1,0 +1,22 @@
+/* pages/settings/clause/clause.wxss */
+
+.container {
+    font-family: Charter;
+    padding: 5%;
+}
+
+.text-head {
+    font: bold;
+    font-size: 1.25rem;
+    color: #585858;
+    padding: 0.5rem;
+}
+
+.clause {
+    font-size: 1rem;
+    color: #585858;
+    padding: 0.5rem;
+    white-space: breakword, pre-line;
+    word-wrap: break-word;
+    word-break: break-all;
+}

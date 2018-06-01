@@ -1,0 +1,111 @@
+@font-face {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+/* 单词显示方式 */
+
+.word-content {
+    font-family: 'Lucida Grande';
+    font-size: 2.75rem;
+    font: bold;
+    color: #fff;
+    text-align: center;
+    padding: 0.1rem 1rem 0.4rem 1rem;
+    margin: 5rem 0 2rem 0;
+    background: #0f88eb;
+    border-radius: 0.3rem;
+}
+
+/* 英式or美式发音 */
+
+.word-EN {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: #0f88eb;
+    text-align: center;
+    vertical-align: center;
+    border: 0.1em solid #0f88eb;
+    padding: 0 10rpx 0 10rpx;
+    margin: 0 10px 10px 10px;
+    background: #fff;
+    border-radius: 18rpx;
+}
+
+.pron-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* 音标 */
+
+.word-pron {
+    margin-left: 0.5rem;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-size: 1.50rem;
+    color: #8f8f8f;
+}
+
+/* 解释框 */
+
+.word-definition {
+    margin: 2rem;
+    font-family: 'Times New Roman', PingFangSC-Ultralight;
+    font-size: 1 rem;
+    color: #8f8f8f;
+    border-left: 0.2rem solid #0f88eb;
+    padding: 0.2rem 0 0 1rem;
+}
+
+.line {
+    width: 300rpx;
+    height: 1rem;
+    background: #8f8f8f;
+}
+
+.button-miss {
+    color: #dc143c;
+    text-align: center;
+    padding: 0 0.5rem 0 0.5rem;
+    margin: 0;
+    background: #fff;
+    border: 0.1rpx solid #dc143c;
+    border-radius: 0.5rem;
+    width: 35%;
+    position: absolute;
+    top: 80%;
+    left: 2%;
+}
+
+.word-miss {
+    font-family: PingFangSC-Ultralight;
+    font-size: 1.50em;
+}
+
+.button-next {
+    color: #2e8b57;
+    text-align: center;
+    padding: 0 0.5rem 0 0.5rem;
+    margin: 0;
+    background: #fff;
+    border: 1rpx solid #2e8b57;
+    border-radius: 0.5rem;
+    width: 35%;
+    position: absolute;
+    top: 80%;
+    right: 2%;
+}
+
+.word-next {
+    font-family: PingFangSC-Ultralight;
+    font-size: 1.50em;
+}

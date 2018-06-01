@@ -1,0 +1,15 @@
+<view class='container'>
+    <view bindtap='showClause'>
+        <text class="next">使用条款 ></text>
+    </view>
+</view>
+<view class='container'>
+    <view bindtap='showHelp'>
+        <text class="next">使用说明 ></text>
+    </view>
+</view>
+<view class='container'>
+    <view bindtap='showFeedback'>
+        <text class="next">用户反馈 ></text>
+    </view>
+</view>
